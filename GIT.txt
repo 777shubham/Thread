@@ -1,7 +1,10 @@
 git clone 'repo link'
 git status 
+git status -short --this will also provide status but with keywords like M,D,??,A
 git checkout 'branchname where u want to work'
+git checkout -b 'newbranchname u want to create and switch'
 touch r.txt - to create file
 git add 'filename u want to commit' --it will dump the file to staging layer
 git commit -m 'your msg'
 git push origin branchname
+git diff branch1 branch2

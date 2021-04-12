@@ -8,3 +8,6 @@ git add 'filename u want to commit' --it will dump the file to staging layer
 git commit -m 'your msg'
 git push origin branchname
 git diff branch1 branch2
+git merge 'branch u want to merge'
+git log (-1 to get 1 item, git log stat will returen log + changes in form of tables)
+git log --patch ( will provide u all the diff in each commits)
